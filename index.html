@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		 <meta charset="utf-8">
+		 <title>Titre de la page</title>
+		 <link rel="stylesheet" href="style.css">
+		 <link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+		 <!-- jQuery library (served from Google) -->
+		 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		 <!-- bxSlider Javascript file -->
+		 <script src="/js/jquery.bxslider.min.js"></script>
+		 <!-- bxSlider CSS file -->
+				 
+	</head>
+	
+	
+	<body>
+		
+			<ul class="menu">
+				<li><a class="accueil" href="">Accueil</a></li>
+				<li><a href="">Nous</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="index.php">Connexion</a></li>
+			</ul>
+
+			<ul class="bxslider">
+			  <li><img src="/images/pic1.jpg" /></li>
+			  <li><img src="/images/pic2.jpg" /></li>
+			  <li><img src="/images/pic3.jpg" /></li>
+			  <li><img src="/images/pic4.jpg" /></li>
+			</ul>
+
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id leo nibh. Nunc a sodales nulla, vitae gravida est. Proin vestibulum non nibh a mattis. Sed egestas orci a nisl consequat, nec egestas massa facilisis. Integer mollis diam sit amet tempus ullamcorper. Morbi dignissim ornare felis, quis porta metus sodales eu. Vestibulum id odio a orci feugiat consequat. Suspendisse vestibulum cursus convallis. Aenean eu urna accumsan, dictum lacus nec, volutpat eros.</p>
+			</div>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+  				$('.bxslider').bxSlider();
+			});
+
+		</script>
+
+	</body>
+</html>
